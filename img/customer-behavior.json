@@ -1,0 +1,2227 @@
+{
+    "traceId": "480D57A9C34F4E1BB3C8FCB27841B881",
+    "errCode": 0,
+    "errMsg": "success！",
+    "data": {
+        "categories": "[{\"name\":\"浏览雷达素材\",\"dimensions\":[{\"name\":\"view_material.material_id\",\"is_new\":false},{\"name\":\"view_material.view_date\",\"is_new\":false},{\"name\":\"view_material.view_count\",\"is_new\":false},{\"name\":\"view_material.avg_view_duration\",\"is_new\":false},{\"name\":\"view_material.last_view_duration\",\"is_new\":false},{\"name\":\"chat_with_staff.staff_id\",\"is_new\":false},{\"name\":\"chat_with_staff.staff_id\",\"is_new\":false}],\"is_new\":false},{\"name\":\"参与营销活动\",\"dimensions\":[{\"name\":\"contact_fission.activity_id\",\"is_new\":false},{\"name\":\"contact_fission.activity_id\",\"is_new\":false},{\"name\":\"contact_fission.help_count\",\"is_new\":false},{\"name\":\"contact_fission.invite_count\",\"is_new\":false},{\"name\":\"contact_fission.net_invite_count\",\"is_new\":false},{\"name\":\"contact_fission.stage\",\"is_new\":false},{\"name\":\"group_fission.activity_id\",\"is_new\":false},{\"name\":\"group_fission.activity_id\",\"is_new\":false},{\"name\":\"group_fission.help_count\",\"is_new\":false},{\"name\":\"group_fission.invite_count\",\"is_new\":false},{\"name\":\"group_fission.net_invite_count\",\"is_new\":false},{\"name\":\"group_fission.stage\",\"is_new\":false},{\"name\":\"sign_in.activity_id\",\"is_new\":false},{\"name\":\"sign_in.activity_id\",\"is_new\":false},{\"name\":\"sign_in.continue_days\",\"is_new\":false},{\"name\":\"sign_in.sum_days\",\"is_new\":false},{\"name\":\"sign_in.stage\",\"is_new\":false}],\"is_new\":false},{\"name\":\"在群聊发言\",\"dimensions\":[{\"name\":\"chat_in_group.group_id\",\"is_new\":false},{\"name\":\"chat_in_group.group_id\",\"is_new\":false},{\"name\":\"chat_in_group.continue_days\",\"is_new\":false},{\"name\":\"chat_in_group.sum_days\",\"is_new\":false}],\"is_new\":false},{\"name\":\"领取优惠券\",\"dimensions\":[{\"name\":\"receive_card.card_id\",\"is_new\":false},{\"name\":\"receive_card.status\",\"is_new\":false},{\"name\":\"receive_card.receive_time\",\"is_new\":false}],\"is_new\":false},{\"name\":\"与员工聊天\",\"dimensions\":[{\"name\":\"chat_with_staff.staff_id\",\"is_new\":false},{\"name\":\"chat_with_staff.staff_id\",\"is_new\":false},{\"name\":\"chat_with_staff.continue_days\",\"is_new\":false},{\"name\":\"chat_with_staff.sum_days\",\"is_new\":false}],\"is_new\":false},{\"name\":\"填写表单\",\"dimensions\":[{\"name\":\"form.form_id\",\"is_new\":false},{\"name\":\"form.submit_time\",\"is_new\":false}],\"is_new\":false}]",
+        "filter_options": [
+            {
+                "label": "浏览雷达素材",
+                "value": "view_material.material_id",
+                "action": {
+                    "type": 2
+                },
+                "input": {
+                    "type": 10,
+                    "options_from": "radar_material"
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "浏览雷达素材-浏览日期",
+                "value": "view_material.view_date",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 6
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "浏览雷达素材-浏览次数",
+                "value": "view_material.view_count",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "unit": "秒",
+                "label": "浏览雷达素材-平均访问时长",
+                "value": "view_material.avg_view_duration",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "unit": "秒",
+                "label": "浏览雷达素材-最近访问时长",
+                "value": "view_material.last_view_duration",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "浏览雷达素材-浏览来源",
+                "value": "chat_with_staff.staff_id",
+                "action": {
+                    "type": 2
+                },
+                "input": {
+                    "type": 10,
+                    "options_from": "view_material_from"
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "浏览雷达素材-浏览来源员工",
+                "value": "chat_with_staff.staff_id",
+                "action": {
+                    "type": 2
+                },
+                "input": {
+                    "type": 10,
+                    "options_from": "staff"
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "好友裂变活动",
+                "value": "contact_fission.activity_id",
+                "action": {
+                    "options": [
+                        {
+                            "label": "谢荟测试1102",
+                            "value": {
+                                "eq": 1455413451594584065
+                            }
+                        },
+                        {
+                            "label": "自定义海报",
+                            "value": {
+                                "eq": 1446730078604812289
+                            }
+                        },
+                        {
+                            "label": "机械键盘",
+                            "value": {
+                                "eq": 1446352065909297154
+                            }
+                        },
+                        {
+                            "label": "士大夫",
+                            "value": {
+                                "eq": 1446407567498350593
+                            }
+                        },
+                        {
+                            "label": "做梦去吧1",
+                            "value": {
+                                "eq": 1443421620564451329
+                            }
+                        },
+                        {
+                            "label": "大保健实物测试12",
+                            "value": {
+                                "eq": 1443117187344310273
+                            }
+                        },
+                        {
+                            "label": "大保健实物测试1",
+                            "value": {
+                                "eq": 1443104902489440257
+                            }
+                        },
+                        {
+                            "label": "大宝剑实物",
+                            "value": {
+                                "eq": 1443103347824525314
+                            }
+                        },
+                        {
+                            "label": "大宝剑实物",
+                            "value": {
+                                "eq": 1443058304645922818
+                            }
+                        },
+                        {
+                            "label": "单阶段-9-29xu",
+                            "value": {
+                                "eq": 1443034304113074177
+                            }
+                        },
+                        {
+                            "label": "大包间",
+                            "value": {
+                                "eq": 1442828258059730946
+                            }
+                        },
+                        {
+                            "label": "小包间",
+                            "value": {
+                                "eq": 1442827874264137730
+                            }
+                        },
+                        {
+                            "label": "大保健",
+                            "value": {
+                                "eq": 1442789403672256514
+                            }
+                        },
+                        {
+                            "label": "大砍刀！！！！！",
+                            "value": {
+                                "eq": 1442782428149952514
+                            }
+                        },
+                        {
+                            "label": "我的活动，别瞎搞",
+                            "value": {
+                                "eq": 1442767616141537282
+                            }
+                        },
+                        {
+                            "label": "你好",
+                            "value": {
+                                "eq": 1442750566400253953
+                            }
+                        },
+                        {
+                            "label": "222",
+                            "value": {
+                                "eq": 1442675474852610050
+                            }
+                        },
+                        {
+                            "label": "weng",
+                            "value": {
+                                "eq": 1442667841752006658
+                            }
+                        },
+                        {
+                            "label": "155",
+                            "value": {
+                                "eq": 1442660385685225474
+                            }
+                        },
+                        {
+                            "label": "cbz",
+                            "value": {
+                                "eq": 1442451919345872898
+                            }
+                        },
+                        {
+                            "label": "如果这是一个测试",
+                            "value": {
+                                "eq": 1442411905456017409
+                            }
+                        },
+                        {
+                            "label": "谢荟测试123231",
+                            "value": {
+                                "eq": 1442398814595227649
+                            }
+                        },
+                        {
+                            "label": "goose",
+                            "value": {
+                                "eq": 1442375500055564289
+                            }
+                        },
+                        {
+                            "label": "放大放大发",
+                            "value": {
+                                "eq": 1442334008119844865
+                            }
+                        },
+                        {
+                            "label": "damei",
+                            "value": {
+                                "eq": 1442301560484343810
+                            }
+                        },
+                        {
+                            "label": "fdafdafdaf",
+                            "value": {
+                                "eq": 1442297872042594306
+                            }
+                        },
+                        {
+                            "label": "测试1",
+                            "value": {
+                                "eq": 1442146155728637954
+                            }
+                        },
+                        {
+                            "label": "mock点合理的数据吧",
+                            "value": {
+                                "eq": 1442062290968158209
+                            }
+                        },
+                        {
+                            "label": "好友列表测试",
+                            "value": {
+                                "eq": 1442050930163224577
+                            }
+                        },
+                        {
+                            "label": "考勤审批",
+                            "value": {
+                                "eq": 1442041097536729090
+                            }
+                        },
+                        {
+                            "label": "接口天天报错",
+                            "value": {
+                                "eq": 1442035711216361474
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0926",
+                            "value": {
+                                "eq": 1442032259564216322
+                            }
+                        },
+                        {
+                            "label": "自测1",
+                            "value": {
+                                "eq": 1441945357935697921
+                            }
+                        },
+                        {
+                            "label": "新活动",
+                            "value": {
+                                "eq": 1441347569425788930
+                            }
+                        },
+                        {
+                            "label": "活命",
+                            "value": {
+                                "eq": 1441345125076250626
+                            }
+                        },
+                        {
+                            "label": "888",
+                            "value": {
+                                "eq": 1441320370008276994
+                            }
+                        },
+                        {
+                            "label": "222",
+                            "value": {
+                                "eq": 1441294799382614017
+                            }
+                        },
+                        {
+                            "label": "af",
+                            "value": {
+                                "eq": 1441000351681413122
+                            }
+                        },
+                        {
+                            "label": "助力测试",
+                            "value": {
+                                "eq": 1437712804164665346
+                            }
+                        },
+                        {
+                            "label": "Iowa Mouse Legacy",
+                            "value": {
+                                "eq": 1437693896582057986
+                            }
+                        },
+                        {
+                            "label": "Missouri Handmade Bike",
+                            "value": {
+                                "eq": 1437598969982427137
+                            }
+                        },
+                        {
+                            "label": "withdrawal Minnesota Refined quantifying",
+                            "value": {
+                                "eq": 1437352287084503041
+                            }
+                        },
+                        {
+                            "label": "Ridge Loan compressing Point",
+                            "value": {
+                                "eq": 1437343383172784129
+                            }
+                        },
+                        {
+                            "label": "拉群测试",
+                            "value": {
+                                "eq": 1437336892428632066
+                            }
+                        },
+                        {
+                            "label": "状态修改测试",
+                            "value": {
+                                "eq": 1437320662384652290
+                            }
+                        },
+                        {
+                            "label": "Turkish Metal",
+                            "value": {
+                                "eq": 1437319662395469826
+                            }
+                        },
+                        {
+                            "label": "orchestrate productize Open-source frictionless",
+                            "value": {
+                                "eq": 1437319586986078209
+                            }
+                        },
+                        {
+                            "label": "Trace Fresh purple Bedfordshire",
+                            "value": {
+                                "eq": 1437319321042038786
+                            }
+                        },
+                        {
+                            "label": "Concrete dynamic Books Guilder  测试已结束的",
+                            "value": {
+                                "eq": 1437318986403688450
+                            }
+                        },
+                        {
+                            "label": "lime Liaison Kentucky  测试已结束的",
+                            "value": {
+                                "eq": 1437318832749555714
+                            }
+                        },
+                        {
+                            "label": "hacking Brand Alabama integrated fuchsia ",
+                            "value": {
+                                "eq": 1437318200105906178
+                            }
+                        },
+                        {
+                            "label": "generate sensor navigate navigating haptic",
+                            "value": {
+                                "eq": 1437307750169554946
+                            }
+                        },
+                        {
+                            "label": "Object-based Panama synthesize",
+                            "value": {
+                                "eq": 1437306456310657026
+                            }
+                        },
+                        {
+                            "label": "Cambridgeshire Analyst Account",
+                            "value": {
+                                "eq": 1437303943612182529
+                            }
+                        },
+                        {
+                            "label": "Bedfordshire Gloves Garden",
+                            "value": {
+                                "eq": 1437303180974469121
+                            }
+                        },
+                        {
+                            "label": "withdrawal Center Malaysia Pierre",
+                            "value": {
+                                "eq": 1437302700013629441
+                            }
+                        },
+                        {
+                            "label": "Applications maroon sensor Adaptive dynamic",
+                            "value": {
+                                "eq": 1437301700846530561
+                            }
+                        },
+                        {
+                            "label": "Incredible discrete Customer Wyoming Missouri",
+                            "value": {
+                                "eq": 1437300603306213378
+                            }
+                        },
+                        {
+                            "label": "Strategist up",
+                            "value": {
+                                "eq": 1437298135688146946
+                            }
+                        },
+                        {
+                            "label": "Regional Corner Tasty",
+                            "value": {
+                                "eq": 1437297723283206146
+                            }
+                        },
+                        {
+                            "label": "Borders matrix Cheese lavender Syrian",
+                            "value": {
+                                "eq": 1437291506531930114
+                            }
+                        },
+                        {
+                            "label": "修改后的活动名称",
+                            "value": {
+                                "eq": 1437264052845129730
+                            }
+                        },
+                        {
+                            "label": "pixel withdrawal mesh",
+                            "value": {
+                                "eq": 1437264029340250114
+                            }
+                        },
+                        {
+                            "label": "修改后的活动名称",
+                            "value": {
+                                "eq": 1437263504125308929
+                            }
+                        },
+                        {
+                            "label": "experiences bluetooth digital Albania",
+                            "value": {
+                                "eq": 1437263288127041538
+                            }
+                        },
+                        {
+                            "label": "Analyst monitor Loan",
+                            "value": {
+                                "eq": 1437261543418195969
+                            }
+                        },
+                        {
+                            "label": "deposit Mountains",
+                            "value": {
+                                "eq": 1437258983718350850
+                            }
+                        },
+                        {
+                            "label": "multi-byte Account Parks parsing",
+                            "value": {
+                                "eq": 1437258625688367105
+                            }
+                        },
+                        {
+                            "label": "Fish Niue Baby",
+                            "value": {
+                                "eq": 1437251827115786242
+                            }
+                        },
+                        {
+                            "label": "Tuna Walks well-modulated bypassing Rubber",
+                            "value": {
+                                "eq": 1437251272817541121
+                            }
+                        },
+                        {
+                            "label": "azure HDD Marketing (Vatican",
+                            "value": {
+                                "eq": 1437250937159974913
+                            }
+                        },
+                        {
+                            "label": "Home XML Salad drive Serbia",
+                            "value": {
+                                "eq": 1433714578512244738
+                            }
+                        },
+                        {
+                            "label": "redefine Sausages application",
+                            "value": {
+                                "eq": 1433687069687078913
+                            }
+                        },
+                        {
+                            "label": "Shoes Beauty protocol Vista Reduced",
+                            "value": {
+                                "eq": 1433686926610980865
+                            }
+                        }
+                    ],
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "好友裂变活动-参与时间",
+                "value": "contact_fission.join_time",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 6
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "好友裂变活动-助力完成次数",
+                "value": "contact_fission.help_count",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "好友裂变活动-邀请好友数",
+                "value": "contact_fission.invite_count",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "好友裂变活动-净增好友数",
+                "value": "contact_fission.net_invite_count",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "好友裂变活动-助力完成阶段",
+                "value": "contact_fission.stage",
+                "action": {
+                    "type": 2
+                },
+                "input": {
+                    "type": 5,
+                    "options_from": "fission_stage"
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "社群裂变活动",
+                "value": "group_fission.activity_id",
+                "action": {
+                    "options": [
+                        {
+                            "label": "d_m_contact_use",
+                            "value": {
+                                "eq": 1446412026346909696
+                            }
+                        },
+                        {
+                            "label": "xxxl-2,",
+                            "value": {
+                                "eq": 1443116868004114432
+                            }
+                        },
+                        {
+                            "label": "xxxl,",
+                            "value": {
+                                "eq": 1443115477944659968
+                            }
+                        },
+                        {
+                            "label": "1234567",
+                            "value": {
+                                "eq": 1443103449242910720
+                            }
+                        },
+                        {
+                            "label": "2222",
+                            "value": {
+                                "eq": 1443102714560233472
+                            }
+                        },
+                        {
+                            "label": "weng",
+                            "value": {
+                                "eq": 1442697526758223872
+                            }
+                        },
+                        {
+                            "label": "454564537我去问问",
+                            "value": {
+                                "eq": 1442383431483990016
+                            }
+                        },
+                        {
+                            "label": "wewf",
+                            "value": {
+                                "eq": 1442381616512208896
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0911-01",
+                            "value": {
+                                "eq": 1436535285440876544
+                            }
+                        },
+                        {
+                            "label": "sdfs",
+                            "value": {
+                                "eq": 1442315239889772544
+                            }
+                        },
+                        {
+                            "label": "123123",
+                            "value": {
+                                "eq": 1442112128193650688
+                            }
+                        },
+                        {
+                            "label": "2345555",
+                            "value": {
+                                "eq": 1442092661594112000
+                            }
+                        },
+                        {
+                            "label": "789456",
+                            "value": {
+                                "eq": 1442080464444833792
+                            }
+                        },
+                        {
+                            "label": "谢谢谢",
+                            "value": {
+                                "eq": 1442077452477382656
+                            }
+                        },
+                        {
+                            "label": "344爱生恶死",
+                            "value": {
+                                "eq": 1442054152913141760
+                            }
+                        },
+                        {
+                            "label": "222啊啊啊",
+                            "value": {
+                                "eq": 1442044768581533696
+                            }
+                        },
+                        {
+                            "label": "999",
+                            "value": {
+                                "eq": 1442039428838277120
+                            }
+                        },
+                        {
+                            "label": "你好",
+                            "value": {
+                                "eq": 1441959004757782528
+                            }
+                        },
+                        {
+                            "label": "111",
+                            "value": {
+                                "eq": 1441338493509971968
+                            }
+                        },
+                        {
+                            "label": "111",
+                            "value": {
+                                "eq": 1441334145040191488
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0917-15",
+                            "value": {
+                                "eq": 1438744436635635712
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0916-15",
+                            "value": {
+                                "eq": 1438442043707789312
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0916-15",
+                            "value": {
+                                "eq": 1438441439950311424
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0916-15",
+                            "value": {
+                                "eq": 1438440865653624832
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0916-15",
+                            "value": {
+                                "eq": 1438439697367076864
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0916-15",
+                            "value": {
+                                "eq": 1438439113033420800
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0916-15",
+                            "value": {
+                                "eq": 1438416348752678912
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0916-15",
+                            "value": {
+                                "eq": 1438414160143486976
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0916-15",
+                            "value": {
+                                "eq": 1438413216655118336
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0916-15",
+                            "value": {
+                                "eq": 1438411844502327296
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0914-15",
+                            "value": {
+                                "eq": 1437679844530622464
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0914-05",
+                            "value": {
+                                "eq": 1437624137200472064
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0914-05",
+                            "value": {
+                                "eq": 1437623465439956992
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0914-03",
+                            "value": {
+                                "eq": 1437622346189934592
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0914-03",
+                            "value": {
+                                "eq": 1437621197226807296
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0914-03",
+                            "value": {
+                                "eq": 1437620765536456704
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0914-03",
+                            "value": {
+                                "eq": 1437617214678011904
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0914-02",
+                            "value": {
+                                "eq": 1437616743284379648
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0913-02",
+                            "value": {
+                                "eq": 1437353326060146688
+                            }
+                        },
+                        {
+                            "label": "谢荟测试0913-01",
+                            "value": {
+                                "eq": 1437351741967994880
+                            }
+                        }
+                    ],
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "社群裂变活动-参与时间",
+                "value": "group_fission.join_time",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 6
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "社群裂变活动-助力完成次数",
+                "value": "group_fission.help_count",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "社群裂变活动-邀请入群客户数",
+                "value": "group_fission.invite_count",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "社群裂变活动-净增入群客户数",
+                "value": "group_fission.net_invite_count",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "社群裂变活动-助力完成阶段",
+                "value": "group_fission.stage",
+                "action": {
+                    "type": 2
+                },
+                "input": {
+                    "type": 5,
+                    "options_from": "fission_stage"
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "社群打卡活动",
+                "value": "sign_in.activity_id",
+                "action": {
+                    "options": [
+                        {
+                            "label": "优惠券包抽奖",
+                            "value": {
+                                "eq": 1455817513727406080
+                            }
+                        },
+                        {
+                            "label": "测试优惠券抽奖",
+                            "value": {
+                                "eq": 1455803083379658752
+                            }
+                        },
+                        {
+                            "label": "11月第一个活动",
+                            "value": {
+                                "eq": 1454979835859509248
+                            }
+                        },
+                        {
+                            "label": "10-30测试优惠券 ",
+                            "value": {
+                                "eq": 1454327439933153280
+                            }
+                        },
+                        {
+                            "label": "1030测试",
+                            "value": {
+                                "eq": 1454267233550426112
+                            }
+                        },
+                        {
+                            "label": "928自测活动1",
+                            "value": {
+                                "eq": 1454265198558011392
+                            }
+                        },
+                        {
+                            "label": "标签",
+                            "value": {
+                                "eq": 1448828166255902720
+                            }
+                        },
+                        {
+                            "label": "重复获奖测试",
+                            "value": {
+                                "eq": 1448821423253716992
+                            }
+                        },
+                        {
+                            "label": "测试内部建群",
+                            "value": {
+                                "eq": 1446404099825352704
+                            }
+                        },
+                        {
+                            "label": "自测打卡109",
+                            "value": {
+                                "eq": 1446386036055580672
+                            }
+                        },
+                        {
+                            "label": "1",
+                            "value": {
+                                "eq": 1443155932870770688
+                            }
+                        },
+                        {
+                            "label": "超升测试打卡活动(假数据Test)",
+                            "value": {
+                                "eq": 1442754566008594432
+                            }
+                        },
+                        {
+                            "label": "jhgbjhghjhgjghj",
+                            "value": {
+                                "eq": 1442741303468281856
+                            }
+                        },
+                        {
+                            "label": "sdf",
+                            "value": {
+                                "eq": 1442739558067392512
+                            }
+                        },
+                        {
+                            "label": "wfewefwqefqwefq",
+                            "value": {
+                                "eq": 1442739022081478656
+                            }
+                        },
+                        {
+                            "label": "awsefw",
+                            "value": {
+                                "eq": 1442402547771056128
+                            }
+                        },
+                        {
+                            "label": "测试打卡活动2 ",
+                            "value": {
+                                "eq": 1436588468819042304
+                            }
+                        },
+                        {
+                            "label": "测试打卡活动修改 ",
+                            "value": {
+                                "eq": 1436510321318928384
+                            }
+                        },
+                        {
+                            "label": "测试打卡活动 ",
+                            "value": {
+                                "eq": 1436508140535128064
+                            }
+                        },
+                        {
+                            "label": "9月打卡活动",
+                            "value": {
+                                "eq": 1435505594587521024
+                            }
+                        }
+                    ],
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "社群打卡活动-参与时间",
+                "value": "sign_in.join_time",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 6
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "社群打卡活动-连续打卡天数",
+                "value": "sign_in.continue_days",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "社群打卡活动-累计打卡天数",
+                "value": "sign_in.sum_days",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "社群打卡活动-所在打卡阶段",
+                "value": "sign_in.stage",
+                "action": {
+                    "type": 2
+                },
+                "input": {
+                    "type": 5,
+                    "options_from": "fission_stage"
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "在群聊发言",
+                "value": "chat_in_group.group_id",
+                "action": {
+                    "type": 2
+                },
+                "input": {
+                    "type": 10,
+                    "options_from": "chat_group"
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "在群聊发言-发言日期",
+                "value": "chat_in_group.chat_date",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 6
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "在群聊发言-连续活跃发言",
+                "value": "chat_in_group.continue_days",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "在群聊发言-累计活跃发言",
+                "value": "chat_in_group.sum_days",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "与员工聊天",
+                "value": "chat_with_staff.staff_id",
+                "action": {
+                    "type": 2
+                },
+                "input": {
+                    "type": 10,
+                    "options_from": "staff"
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "与员工聊天-发言日期",
+                "value": "chat_with_staff.chat_date",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 6
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "与员工聊天-连续活跃发言",
+                "value": "chat_with_staff.continue_days",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "与员工聊天-累计活跃发言",
+                "value": "chat_with_staff.sum_days",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "填写表单名称",
+                "value": "form.form_id",
+                "action": {
+                    "options": [
+                        {
+                            "label": "表单填写有奖励",
+                            "value": {
+                                "eq": 1456587377692954626
+                            }
+                        },
+                        {
+                            "label": "有奖励_202111051718",
+                            "value": {
+                                "eq": 1456551541596819458
+                            }
+                        },
+                        {
+                            "label": "有奖励",
+                            "value": {
+                                "eq": 1456537647528611842
+                            }
+                        },
+                        {
+                            "label": "123",
+                            "value": {
+                                "eq": 1456284277035814914
+                            }
+                        },
+                        {
+                            "label": "123",
+                            "value": {
+                                "eq": 1456283721319895042
+                            }
+                        },
+                        {
+                            "label": "123",
+                            "value": {
+                                "eq": 1456263130991378434
+                            }
+                        },
+                        {
+                            "label": "十多个",
+                            "value": {
+                                "eq": 1456254667712184321
+                            }
+                        },
+                        {
+                            "label": "123123",
+                            "value": {
+                                "eq": 1456254057461923842
+                            }
+                        },
+                        {
+                            "label": "gsdg123123",
+                            "value": {
+                                "eq": 1456251338349166593
+                            }
+                        },
+                        {
+                            "label": "gsdg123123",
+                            "value": {
+                                "eq": 1456250846357307393
+                            }
+                        },
+                        {
+                            "label": "gsdg123123",
+                            "value": {
+                                "eq": 1456250613917368321
+                            }
+                        },
+                        {
+                            "label": "gsdg",
+                            "value": {
+                                "eq": 1456246890138779650
+                            }
+                        },
+                        {
+                            "label": "123",
+                            "value": {
+                                "eq": 1456245496287674369
+                            }
+                        },
+                        {
+                            "label": "123",
+                            "value": {
+                                "eq": 1456238807160389634
+                            }
+                        },
+                        {
+                            "label": "ceshi",
+                            "value": {
+                                "eq": 1456238587894759425
+                            }
+                        },
+                        {
+                            "label": "111",
+                            "value": {
+                                "eq": 1456199681718030338
+                            }
+                        },
+                        {
+                            "label": "123123",
+                            "value": {
+                                "eq": 1456199572724846594
+                            }
+                        },
+                        {
+                            "label": "为各位哥1111",
+                            "value": {
+                                "eq": 1456199118074875906
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1456192526231973890
+                            }
+                        },
+                        {
+                            "label": "123123",
+                            "value": {
+                                "eq": 1456076230468911106
+                            }
+                        },
+                        {
+                            "label": "测试活动",
+                            "value": {
+                                "eq": 1456075527168016386
+                            }
+                        },
+                        {
+                            "label": "123",
+                            "value": {
+                                "eq": 1456075140297998338
+                            }
+                        },
+                        {
+                            "label": "123",
+                            "value": {
+                                "eq": 1455833119272251393
+                            }
+                        },
+                        {
+                            "label": "123",
+                            "value": {
+                                "eq": 1455832873808998401
+                            }
+                        },
+                        {
+                            "label": "12312",
+                            "value": {
+                                "eq": 1455830363035709441
+                            }
+                        },
+                        {
+                            "label": "测试测试",
+                            "value": {
+                                "eq": 1455807691658076161
+                            }
+                        },
+                        {
+                            "label": "车我我我",
+                            "value": {
+                                "eq": 1455538773097566209
+                            }
+                        },
+                        {
+                            "label": "呜呜呜呜",
+                            "value": {
+                                "eq": 1455538171953139713
+                            }
+                        },
+                        {
+                            "label": "www",
+                            "value": {
+                                "eq": 1455534956369006594
+                            }
+                        },
+                        {
+                            "label": "12312",
+                            "value": {
+                                "eq": 1455470698321854465
+                            }
+                        },
+                        {
+                            "label": "测试活动3",
+                            "value": {
+                                "eq": 1455371984393056257
+                            }
+                        },
+                        {
+                            "label": "123",
+                            "value": {
+                                "eq": 1455366766439804929
+                            }
+                        },
+                        {
+                            "label": "123",
+                            "value": {
+                                "eq": 1455363507402682370
+                            }
+                        },
+                        {
+                            "label": "123123",
+                            "value": {
+                                "eq": 1455362757817643009
+                            }
+                        },
+                        {
+                            "label": "测试活动",
+                            "value": {
+                                "eq": 1455136863652614146
+                            }
+                        },
+                        {
+                            "label": "测试活动1",
+                            "value": {
+                                "eq": 1455093174803755009
+                            }
+                        },
+                        {
+                            "label": "测试活动",
+                            "value": {
+                                "eq": 1455091141086408705
+                            }
+                        },
+                        {
+                            "label": "测试活动",
+                            "value": {
+                                "eq": 1455091078184431618
+                            }
+                        },
+                        {
+                            "label": "测试活动",
+                            "value": {
+                                "eq": 1455091027554988034
+                            }
+                        },
+                        {
+                            "label": "员工推送测试",
+                            "value": {
+                                "eq": 1455082594003517442
+                            }
+                        },
+                        {
+                            "label": "问过我",
+                            "value": {
+                                "eq": 1454070711703736322
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1449911590927519745
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1449911406185205761
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1449911405182767105
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1449911402179645442
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1449911293593309185
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1449911289881350146
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1449911273880080386
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1448897923711676418
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1448635083849023489
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1448634417751605249
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1448551036800847873
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1448219998596546561
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1448217848034279425
+                            }
+                        },
+                        {
+                            "label": "为各位哥",
+                            "value": {
+                                "eq": 1448213413266636801
+                            }
+                        },
+                        {
+                            "label": "表单活动测试",
+                            "value": {
+                                "eq": 1441226110018936834
+                            }
+                        }
+                    ],
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "填写表单-填写时间",
+                "value": "form.submit_time",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 6
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "优惠劵名称",
+                "value": "receive_card.card_id",
+                "action": {
+                    "options": [
+                        {
+                            "label": "1312",
+                            "value": {
+                                "eq": 1456520790272155649
+                            }
+                        },
+                        {
+                            "label": "券码",
+                            "value": {
+                                "eq": 1456082378706206722
+                            }
+                        },
+                        {
+                            "label": "测试领取条件-指定客户标签",
+                            "value": {
+                                "eq": 1455806764813361154
+                            }
+                        },
+                        {
+                            "label": "测试领取条件-指定群聊",
+                            "value": {
+                                "eq": 1455806346372816897
+                            }
+                        },
+                        {
+                            "label": "测试领取条件-新企微客户",
+                            "value": {
+                                "eq": 1455806101010227201
+                            }
+                        },
+                        {
+                            "label": "测试领取条件-全部客户",
+                            "value": {
+                                "eq": 1455805996538503170
+                            }
+                        },
+                        {
+                            "label": "优惠ddddd",
+                            "value": {
+                                "eq": 1455437159354253313
+                            }
+                        },
+                        {
+                            "label": "又回去演1",
+                            "value": {
+                                "eq": 1455169685240356866
+                            }
+                        },
+                        {
+                            "label": "你好啊",
+                            "value": {
+                                "eq": 1455164128425472002
+                            }
+                        },
+                        {
+                            "label": "222",
+                            "value": {
+                                "eq": 1455145902424506369
+                            }
+                        },
+                        {
+                            "label": "111",
+                            "value": {
+                                "eq": 1455145837245022210
+                            }
+                        },
+                        {
+                            "label": "大幅度发斯蒂芬",
+                            "value": {
+                                "eq": 1455055348308303874
+                            }
+                        },
+                        {
+                            "label": "50元抵扣券，更改",
+                            "value": {
+                                "eq": 1454859987853062145
+                            }
+                        },
+                        {
+                            "label": "5折券，更改",
+                            "value": {
+                                "eq": 1454859817178443777
+                            }
+                        },
+                        {
+                            "label": "晚上优惠多多，更改",
+                            "value": {
+                                "eq": 1454859611334586369
+                            }
+                        },
+                        {
+                            "label": "111",
+                            "value": {
+                                "eq": 1454386248177491970
+                            }
+                        },
+                        {
+                            "label": "1231",
+                            "value": {
+                                "eq": 1454371723331231745
+                            }
+                        },
+                        {
+                            "label": "454545",
+                            "value": {
+                                "eq": 1454353977596166145
+                            }
+                        },
+                        {
+                            "label": "232323",
+                            "value": {
+                                "eq": 1454295981575573506
+                            }
+                        },
+                        {
+                            "label": "w2fwefwef",
+                            "value": {
+                                "eq": 1454295910154964994
+                            }
+                        },
+                        {
+                            "label": "xxxxxxxxxxx",
+                            "value": {
+                                "eq": 1454275326096146433
+                            }
+                        },
+                        {
+                            "label": "讽德诵功1111",
+                            "value": {
+                                "eq": 1453711923515531265
+                            }
+                        },
+                        {
+                            "label": "考虑",
+                            "value": {
+                                "eq": 1453701481633886210
+                            }
+                        },
+                        {
+                            "label": "【前端】网店详情页：优化 - 当经营指标为空时，不显示经营指标模块；当网店信息为空时，整个显示暂无数据空状态",
+                            "value": {
+                                "eq": 1453343974039814145
+                            }
+                        },
+                        {
+                            "label": "klyuii.hjkl",
+                            "value": {
+                                "eq": 1453333760582418434
+                            }
+                        },
+                        {
+                            "label": "营销2.0旧改测试1025",
+                            "value": {
+                                "eq": 1452521093747740673
+                            }
+                        },
+                        {
+                            "label": "复工后",
+                            "value": {
+                                "eq": 1451741689569931265
+                            }
+                        },
+                        {
+                            "label": "法国红酒",
+                            "value": {
+                                "eq": 1451739805106892802
+                            }
+                        },
+                        {
+                            "label": "发过的",
+                            "value": {
+                                "eq": 1451737882026897410
+                            }
+                        },
+                        {
+                            "label": "sdfads从v",
+                            "value": {
+                                "eq": 1451387588407521282
+                            }
+                        },
+                        {
+                            "label": "营销2.0旧改测试",
+                            "value": {
+                                "eq": 1451110355305025538
+                            }
+                        },
+                        {
+                            "label": "营销2.0旧改测试",
+                            "value": {
+                                "eq": 1450723767496482818
+                            }
+                        },
+                        {
+                            "label": "光强啊实打实大叔大婶的阿萨德阿萨德阿萨德阿萨德按时大叔大婶多的阿萨德阿萨",
+                            "value": {
+                                "eq": 1446301620921245697
+                            }
+                        },
+                        {
+                            "label": "电风扇",
+                            "value": {
+                                "eq": 1443423679103688705
+                            }
+                        },
+                        {
+                            "label": "reerd",
+                            "value": {
+                                "eq": 1442692553437556737
+                            }
+                        },
+                        {
+                            "label": "fhj",
+                            "value": {
+                                "eq": 1442690331085582337
+                            }
+                        },
+                        {
+                            "label": "【前端】网店详情页：修复bug",
+                            "value": {
+                                "eq": 1442689361106644994
+                            }
+                        },
+                        {
+                            "label": "2123",
+                            "value": {
+                                "eq": 1442423602248495105
+                            }
+                        },
+                        {
+                            "label": "任天野",
+                            "value": {
+                                "eq": 1442419492094816257
+                            }
+                        },
+                        {
+                            "label": "1212",
+                            "value": {
+                                "eq": 1442415034296250369
+                            }
+                        },
+                        {
+                            "label": "12",
+                            "value": {
+                                "eq": 1442412442918326274
+                            }
+                        },
+                        {
+                            "label": "批量卡券测试",
+                            "value": {
+                                "eq": 1442411920305537026
+                            }
+                        },
+                        {
+                            "label": "111",
+                            "value": {
+                                "eq": 1442411544137699330
+                            }
+                        },
+                        {
+                            "label": "具体预感",
+                            "value": {
+                                "eq": 1442411222564605954
+                            }
+                        },
+                        {
+                            "label": "【前端】网店详情页：修复bug",
+                            "value": {
+                                "eq": 1442401414531031041
+                            }
+                        },
+                        {
+                            "label": "sdfg单方事故阿斯蒂芬",
+                            "value": {
+                                "eq": 1442015495965679617
+                            }
+                        },
+                        {
+                            "label": "更好",
+                            "value": {
+                                "eq": 1442014341553430530
+                            }
+                        },
+                        {
+                            "label": "fake_data2",
+                            "value": {
+                                "eq": 1438414347697700866
+                            }
+                        },
+                        {
+                            "label": "fake_data",
+                            "value": {
+                                "eq": 1438414260066107393
+                            }
+                        }
+                    ],
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "优惠券状态",
+                "value": "receive_card.status",
+                "action": {
+                    "options": [
+                        {
+                            "label": "已领取",
+                            "value": {
+                                "eq": 0
+                            }
+                        },
+                        {
+                            "label": "已使用",
+                            "value": {
+                                "eq": 2
+                            }
+                        },
+                        {
+                            "label": "未使用",
+                            "value": {
+                                "eq": 1
+                            }
+                        },
+                        {
+                            "label": "已过期",
+                            "value": {
+                                "eq": -1
+                            }
+                        }
+                    ],
+                    "type": 5
+                },
+                "default_can_use": 0
+            },
+            {
+                "label": "领取时间",
+                "value": "receive_card.receive_time",
+                "action": {
+                    "type": 0
+                },
+                "input": {
+                    "type": 6
+                },
+                "default_can_use": 0
+            }
+        ],
+        "hot_list": "{}",
+        "input_values": {
+            "fission_stage": [
+                {
+                    "label": "第一阶段",
+                    "value": 1
+                },
+                {
+                    "label": "第二阶段",
+                    "value": 2
+                },
+                {
+                    "label": "第三阶段",
+                    "value": 3
+                }
+            ],
+            "radar_material": [],
+            "view_material_from": [
+                {
+                    "title": "员工分享",
+                    "value": 0
+                },
+                {
+                    "title": "客户朋友圈分享",
+                    "value": 1
+                },
+                {
+                    "title": "客户转发分享",
+                    "value": 2
+                },
+                {
+                    "title": "虚拟朋友圈分享",
+                    "value": 3
+                }
+            ],
+            "staff": [
+                {
+                    "title": "哈哈哈哈",
+                    "value": "1448192383061438465"
+                },
+                {
+                    "title": "何强永",
+                    "value": "1442776536978984962"
+                },
+                {
+                    "title": "黄国鹏",
+                    "value": "1441952767919915009"
+                },
+                {
+                    "title": "黄光强",
+                    "value": "1441332737976958977"
+                },
+                {
+                    "title": "王斯敏",
+                    "value": "1441304151975636994"
+                },
+                {
+                    "title": "陆丽芳",
+                    "value": "1436574024354549762"
+                },
+                {
+                    "title": "林松梅",
+                    "value": "1436574009313775617"
+                },
+                {
+                    "title": "李绍炜11",
+                    "value": "1436515743609327618"
+                },
+                {
+                    "title": "宋名华",
+                    "value": "1436216714205773825"
+                },
+                {
+                    "title": "陆丽芳",
+                    "value": "1430081902793928705"
+                },
+                {
+                    "title": "朱秋槐",
+                    "value": "1425700146864529410"
+                },
+                {
+                    "title": "testadd23",
+                    "value": "1420631467430699009"
+                },
+                {
+                    "title": "华为企微",
+                    "value": "1414492684638740482"
+                },
+                {
+                    "title": "周家乐",
+                    "value": "1411861719602479106"
+                },
+                {
+                    "title": "梁超升",
+                    "value": "1411861612408651777"
+                },
+                {
+                    "title": "窦中钒",
+                    "value": "1410417417520869378"
+                },
+                {
+                    "title": "吴桂林",
+                    "value": "1402463812570021889"
+                },
+                {
+                    "title": "温澍潜",
+                    "value": "1398092788499845122"
+                },
+                {
+                    "title": "翁鸿添",
+                    "value": "1397824332544143361"
+                },
+                {
+                    "title": "陈炳展",
+                    "value": "1395285960432746498"
+                },
+                {
+                    "title": "谢荟",
+                    "value": "1393034268964265985"
+                },
+                {
+                    "title": "王泽群",
+                    "value": "1392390037283737602"
+                },
+                {
+                    "title": "梁文智",
+                    "value": "1390929413020237826"
+                },
+                {
+                    "title": "林国来",
+                    "value": "1390237020881076226"
+                },
+                {
+                    "title": "肖国同",
+                    "value": "1388031828161978370"
+                },
+                {
+                    "title": "李坤廷",
+                    "value": "1387293019126571009"
+                },
+                {
+                    "title": "方彦凯",
+                    "value": "1386255343143211009"
+                },
+                {
+                    "title": "王飞就",
+                    "value": "1386255026108354561"
+                },
+                {
+                    "title": "蔡华",
+                    "value": "1386202076569731074"
+                },
+                {
+                    "title": "方烨封",
+                    "value": "1383993173537013762"
+                },
+                {
+                    "title": "郭逸聪",
+                    "value": "1382505685818863617"
+                },
+                {
+                    "title": "Apple企微1",
+                    "value": "1381528852158537730"
+                },
+                {
+                    "title": "徐明贵",
+                    "value": "1379977187691724801"
+                },
+                {
+                    "title": "dev-ph",
+                    "value": "1370659218989297665"
+                },
+                {
+                    "title": "龙",
+                    "value": "1366288181933555713"
+                },
+                {
+                    "title": "苏冬玲",
+                    "value": "1366271227071496194"
+                },
+                {
+                    "title": "杜灼成",
+                    "value": "1366220143016071170"
+                },
+                {
+                    "title": "武盛",
+                    "value": "1365176080639254530"
+                },
+                {
+                    "title": "洪奇",
+                    "value": "1365136826310574082"
+                },
+                {
+                    "title": "熊文豪",
+                    "value": "1364501477864054785"
+                },
+                {
+                    "title": "浅惜ix",
+                    "value": "1364493426650062850"
+                },
+                {
+                    "title": "梓豪",
+                    "value": "1364113528683577345"
+                },
+                {
+                    "title": "冯振威",
+                    "value": "1364050803290202113"
+                },
+                {
+                    "title": "莫一鸣",
+                    "value": "1363674649749610497"
+                },
+                {
+                    "title": "黄平东",
+                    "value": "1363039572390617089"
+                },
+                {
+                    "title": "廖幸锋",
+                    "value": "1363013248006815745"
+                },
+                {
+                    "title": "王木",
+                    "value": "1362657871455588353"
+                },
+                {
+                    "title": "张楷槟",
+                    "value": "1362657754233180161"
+                },
+                {
+                    "title": "谭新",
+                    "value": "1362585393863512065"
+                },
+                {
+                    "title": "孟娇",
+                    "value": "1362301547797987330"
+                },
+                {
+                    "title": "黄艺",
+                    "value": "1362284309033762817"
+                },
+                {
+                    "title": "何志权",
+                    "value": "1362281014915481602"
+                },
+                {
+                    "title": "黄炳良",
+                    "value": "1362279564105728002"
+                },
+                {
+                    "title": "姜佟Terry",
+                    "value": "1362246417907900417"
+                },
+                {
+                    "title": "高晨辉",
+                    "value": "1362244287209857025"
+                },
+                {
+                    "title": "Joker",
+                    "value": "1357960425870696450"
+                },
+                {
+                    "title": "思壕",
+                    "value": "1357949402400923649"
+                },
+                {
+                    "title": "彭峰",
+                    "value": "1357949214579990530"
+                },
+                {
+                    "title": "陈百万",
+                    "value": "1357650561864421378"
+                },
+                {
+                    "title": "vina",
+                    "value": "1357585067119595521"
+                },
+                {
+                    "title": "肖志栋",
+                    "value": "1357272554172391425"
+                },
+                {
+                    "title": "肖银骏",
+                    "value": "1356957055528861698"
+                },
+                {
+                    "title": "温少油",
+                    "value": "1356957055105236994"
+                },
+                {
+                    "title": "胡东亮",
+                    "value": "1356957055029739521"
+                },
+                {
+                    "title": "宋名华",
+                    "value": "1356957054467702785"
+                },
+                {
+                    "title": "VinJay_Yeh",
+                    "value": "1356957053863723009"
+                },
+                {
+                    "title": "PakJeon",
+                    "value": "1356957053503012865"
+                },
+                {
+                    "title": "gtp2",
+                    "value": "1356957053150691330"
+                }
+            ],
+            "chat_group": [
+                {
+                    "title": "周家乐,成,给你所有の小温暖",
+                    "value": "wrBdcbDAAAWB_jAEHL5IIcZYU-TeTqtQ"
+                },
+                {
+                    "title": "1234",
+                    "value": "wrBdcbDAAAQf3Bx5gNWr5BdTTQlheukw"
+                },
+                {
+                    "title": "胡东亮,武盛,姜佟Terry",
+                    "value": "wrBdcbDAAA56-EqYppqr6l_oLeNjRdXA"
+                },
+                {
+                    "title": "群聊测试1209",
+                    "value": "wrBdcbDAAAO8Ejcesz5QzpqzuiArwI0A"
+                },
+                {
+                    "title": "2号群1",
+                    "value": "wrBdcbDAAA63ncbCsgrsL7CaOjWAQEzQ"
+                },
+                {
+                    "title": "2号群1",
+                    "value": "wrBdcbDAAAh8zo3sFdAvn0nzWcCh-n9w"
+                },
+                {
+                    "title": "自动拉群测试1",
+                    "value": "wrBdcbDAAAR5nT4IXYAb7O4BQoZ8-Afg"
+                },
+                {
+                    "title": "解散测试",
+                    "value": "wrBdcbDAAA2Kk4dmanxzhcEn2M-w2Ltg"
+                },
+                {
+                    "title": "胡东亮,null",
+                    "value": "wrBdcbDAAAnITXUvXCKGYWcDp3sQyRDg"
+                }
+            ]
+        }
+    }
+}
